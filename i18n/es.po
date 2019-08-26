@@ -17,8 +17,8 @@ msgstr ""
 
 #. module: stock_move_purchase_price
 #: model:ir.model.fields,field_description:stock_move_purchase_price.field_stock_move__purchase_price_unit
-msgid "Purchase price unit"
-msgstr "Precio de compra"
+msgid "Move price unit"
+msgstr "Precio operación"
 
 #. module: stock_move_purchase_price
 #: model:ir.model.fields,help:stock_move_purchase_price.field_stock_move__purchase_price_unit

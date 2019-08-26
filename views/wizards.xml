@@ -10,7 +10,7 @@
         <field name="arch" type="xml">
 
              <field name="quantity_done" position="after">
-                 <field name="purchase_price_unit"/>
+                 <field name="move_price_unit"/>
             </field>
 
         </field>
