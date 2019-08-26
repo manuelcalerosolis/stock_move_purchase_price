@@ -26,9 +26,9 @@ class StockMove(models.Model):
             if len(record.picking_id.purchase_id) > 0:
                 for order_line in record.picking_id.purchase_id.order_line:
                     if order_line.product_id == record.product_id:
-                        record.move_price_unit = order_line.price_total
+                        record.move_price_unit = order_line.price_unit
 
             if len(record.picking_id.sale_id) > 0:
                 for order_line in record.picking_id.sale_id.order_line:
                     if order_line.product_id == record.product_id:
-                        record.move_price_unit = order_line.price_total
+                        record.move_price_unit = order_line.price_unit
